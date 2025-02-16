@@ -5,13 +5,13 @@
 //  Created by Saransh Singhal on 11/02/25.
 //
 
-import SwiftUI
-
-@main
-struct drawing_appApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+//import SwiftUI
+//
+//@main
+//struct drawing_appApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            DrawingApp()
+//        }
+//    }
+//}
