@@ -17,5 +17,6 @@ struct StrokeModel: Identifiable{
     
     var lineWidth: CGFloat = 10
     var isFinished: Bool = false
+    var brushType : BrushEnums = .pencil
     
 }

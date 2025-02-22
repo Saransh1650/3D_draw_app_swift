@@ -11,9 +11,9 @@ class DrawingViewModel : ObservableObject{
     @Published var stroke : [StrokeModel] = []
     private var currentStroke = StrokeModel()
     
-    func addPoint(_ point: CGPoint, color: Color, lineWidth: CGFloat) {
+    func addPoint(_ point: CGPoint, color: Color, lineWidth: CGFloat, brushStyle: BrushEnums) {
         if stroke.isEmpty || stroke.last?.isFinished == true {
-                   stroke.append(StrokeModel(points: [point], color: color, lineWidth: lineWidth))
+            stroke.append(StrokeModel(points: [point], color: color, lineWidth: lineWidth, brushType: brushStyle))
                } else {
                    stroke[stroke.count - 1].points.append(point)
                }
