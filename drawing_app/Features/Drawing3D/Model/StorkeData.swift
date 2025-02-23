@@ -6,3 +6,8 @@
 //
 
 import Foundation
+struct StrokeData: Codable {
+    let x: Float
+    let y: Float
+    let z: Float
+}

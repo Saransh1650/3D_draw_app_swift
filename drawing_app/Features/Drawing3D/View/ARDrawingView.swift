@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
+import ARKit
 
-struct ARView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct ARDrawingView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> ARDrawingViewController {
+        return ARDrawingViewController()
     }
+    
+    func updateUIViewController(_ uiViewController: ARDrawingViewController, context: Context) {}
 }
 
-#Preview {
-    ARView()
-}
