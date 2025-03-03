@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AppRoutes: View {
     var body: some View {
-        ARDrawingView()
+        ARDrawingScreen()
     }
 }
 
