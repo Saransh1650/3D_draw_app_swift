@@ -58,7 +58,7 @@ A SwiftUI-based drawing application for iOS and macOS, featuring both 2D and 3D 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Saransh1650/3D_draw_app_swift
    ```
 2. **Open the project in Xcode:**
    - Double-click `drawing_app.xcodeproj`.
