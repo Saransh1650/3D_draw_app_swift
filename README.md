@@ -1,4 +1,11 @@
-# Drawing App
+<img src="https://github.com/user-attachments/assets/90bf44a1-f6bf-4ede-a91a-daadb29fd7c7" width="270" style="padding-right: 200px;"/>
+
+
+<img src="https://github.com/user-attachments/assets/cadeaeb5-c2f6-4e47-a666-396b8d4e469d" width="270"/>
+
+
+
+# 3D Drawing App
 
 A SwiftUI-based drawing application for iOS and macOS, featuring both 2D and 3D drawing capabilities. This README focuses on the overall project and its 3D drawing features, excluding the 2D drawing functionality.
 
