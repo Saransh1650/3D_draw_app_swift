@@ -90,7 +90,3 @@ A SwiftUI-based drawing application for iOS and macOS, featuring both 2D and 3D 
 ## Resources
 
 - **Assets.xcassets:** Contains app icons and color assets.
-
-## License
-
-This project is licensed under the MIT License.
